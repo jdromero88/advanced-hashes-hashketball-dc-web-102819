@@ -118,8 +118,8 @@ def game_hash
   }
 end
 
-def num_points_scored
-  puts points = [:home][:players][:points]
-
+def num_points_scored(players_name)
+  puts points = game_hash[:home][:players][:points]
+  binding.pry
   #return number of points by players
 end
