@@ -120,6 +120,6 @@ end
 
 def num_points_scored
   puts points = [:home][:players][:points]
-  
+
   #return number of points by players
 end
