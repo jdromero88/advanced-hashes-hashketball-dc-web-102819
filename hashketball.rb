@@ -124,7 +124,7 @@ def test(src)
 
   puts points
 end
-
+test(game_hash)
 def num_points_scored(players_name)
 
   binding.pry
