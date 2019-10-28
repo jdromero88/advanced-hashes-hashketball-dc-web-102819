@@ -119,7 +119,10 @@ def game_hash
   }
   puts [:home][:players][:points]
 end
-game_hash
+def test(src)
+  puts src[:home][:players][:points]
+end
+
 def num_points_scored(players_name)
 
   binding.pry
