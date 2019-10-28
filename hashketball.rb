@@ -117,3 +117,7 @@ def game_hash
     }
   }
 end
+
+def num_points_scored
+  points = [:home][:players][:points]
+end
