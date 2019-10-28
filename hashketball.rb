@@ -121,7 +121,7 @@ def game_hash
 end
 def test(src)
   points = src[:home][:players][:points]
-  
+
   puts points
 end
 
